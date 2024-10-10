@@ -1,5 +1,5 @@
 # no apt to install jq, so we copy it over
-FROM cosmwasm/wasmd:v0.31.0
+FROM cosmwasm/wasmd:v0.52.0
 
 USER root
 
