@@ -1,5 +1,6 @@
 # no apt to install jq, so we copy it over
-FROM cosmwasm/wasmd:v0.52.0
+# TODO: switch to cosmwasm/wasmd once it is published on dockerhub
+FROM arkprotocol/wasmd:v0.53.0
 
 USER root
 
